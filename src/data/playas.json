@@ -1,20 +1,19 @@
 [
   {
-    "id": "",
-    "name": "",
+    "id": "p1",
+    "name": "Bahia_Inglesa",
     "img": "",
-    "temperatura":"",
-    "humedad":"",
-    "viento": "",
+    "temperatura": "",
+    "estado": "",
     "desc": "",
-    "icon": "",
-    "flag": "",
-  
-    
-    
-    
-  }, 
-  
-  
+    "flag": "../src/assets/img/",
+    "pronósticoSemanal": [
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "parcialmente nublado"},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "parcialmente nublado"},
+      {"dia": "Miércoles","min": 14,"max": 30,"estado": "parcialmente nublado"},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "parcialmente nublado"},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "parcialmente nublado"},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "parcialmente nublado"},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "parcialmente nublado"}]
+  }
 ]
-  
