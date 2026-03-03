@@ -1,9 +1,10 @@
 <template>
     <div class="card" id="p1">
-        <!-- tengo que hacer dinámicas las imágenes de la playa y la bandera -->
-        <img src="/imagenes/Bahía Inglesa_Chile.jpg" class="card-img-top" height="200">
+        
+       <div><img :src="playa.img" height="200px"/></div>
+        
         <div class="card-body">
-            <h5 class="card-title">{{ playa.name }} <img src="/imagenes/B_Chile.jpg" height="20px"></h5>
+            <h5 class="card-title">{{ playa.name }} <img :src="playa.flag" height="20px"></h5>
 
             <div class="card__temp__hum">
                 <p>{{ playa.temp }}</p> /
