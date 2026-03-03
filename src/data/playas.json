@@ -10,13 +10,13 @@
     "flag": "/imagenes/B_Chile.jpg",
     "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
     "pronSem": [
-      {"dia": "Lunes","min": 14,"max": 30,"estado": "parcialmente nublado"},
-      {"dia": "Martes","min": 14,"max": 30,"estado": "parcialmente nublado"},
-      {"dia": "Miércoles","min": 14,"max": 30,"estado": "parcialmente nublado"},
-      {"dia": "Jueves","min": 14,"max": 30,"estado": "parcialmente nublado"},
-      {"dia": "Viernes","min": 14,"max": 30,"estado": "parcialmente nublado"},
-      {"dia": "Sabado","min": 14,"max": 30,"estado": "parcialmente nublado"},
-      {"dia": "Domingo","min": 14,"max": 30,"estado": "parcialmente nublado"}]
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
+      {"dia": "Miércoles","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "parcialmente nublado","icon":""}]
    
   }
 
