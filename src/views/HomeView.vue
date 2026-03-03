@@ -1,9 +1,7 @@
 <template>
   <div class="home">
     <h1>Playas soñadas de América</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptate doloribus placeat quo expedita, dicta
-      provident exercitationem voluptatibus cumque molestias ab ipsa deleniti beatae, aperiam aspernatur nulla, pariatur
-      maiores eveniet!</p>
+   <PlayaGrid :playas="playas" />
       
     <footer id="Footer" class="footer">
 
@@ -27,10 +25,15 @@
       </div>
     </footer>
   </div>
+
 </template>
 
 <script setup>
+import PlayaGrid from '../components/PlayaGrid.vue';
+import playasData from '../data/playas.json';
+import { ref } from 'vue'
 
+const playas = ref(playasData)
 
 
 </script>

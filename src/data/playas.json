@@ -2,11 +2,11 @@
   {
     "id": "p1",
     "name": "Bahia_Inglesa",
-    "img": "",
-    "temperatura": "",
-    "estado": "",
-    "desc": "",
-    "flag": "../src/assets/img/",
+    "img": "/imagenes/Bahia_Inglesa.jpg",
+    "temperatura": "21",
+    "estado": "parcialmente nublado",
+    "ícono": " ",
+    "flag": "/imagenes/B_Chile.jpg",
     "pronósticoSemanal": [
       {"dia": "Lunes","min": 14,"max": 30,"estado": "parcialmente nublado"},
       {"dia": "Martes","min": 14,"max": 30,"estado": "parcialmente nublado"},
