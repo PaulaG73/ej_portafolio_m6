@@ -1,5 +1,14 @@
 <template>
-  <div class="about">
-    <h1>Nuestra Agencia</h1>
-  </div>
+    <div>
+<h2>Nuestra Agencia</h2>
+    </div>
 </template>
+
+<script setup>
+
+
+</script>
+
+<style scoped>
+
+</style>
