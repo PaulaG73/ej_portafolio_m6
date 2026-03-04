@@ -22,7 +22,7 @@
   {
     "id": "p2",
     "name": "Bahia Tortuga",
-    "img": "/imagenes/Bahía_Inglesa_Chile.jpg",
+    "img": "/imagenes/Bahía_Tortuga_Ecuador.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
     "estado": "Parcialmente nublado",
@@ -42,7 +42,7 @@
     {
     "id": "p3",
     "name": "Bocas del Toro",
-    "img": "/imagenes/Bahía_Inglesa_Chile.jpg",
+    "img": "/imagenes/Bocas_del_Toro_Panamá.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
     "estado": "Parcialmente nublado",
@@ -182,7 +182,7 @@
     {
     "id": "p10",
     "name": "Playa del Carmen",
-    "img": "/imagenes/Bahía_Inglesa_Chile.jpg",
+    "img": "/imagenes/Playa_del_Carmen_México.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
     "estado": "Parcialmente nublado",
@@ -222,7 +222,7 @@
     {
     "id": "p12",
     "name": "Punta del Este",
-    "img": "/imagenes/Bahía_Inglesa_Chile.jpg",
+    "img": "/imagenes/Punta_del_Este_Uruguay.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
     "estado": "Parcialmente nublado",
