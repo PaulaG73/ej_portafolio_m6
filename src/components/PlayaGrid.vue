@@ -1,6 +1,8 @@
 <template>
-    <div class="grilla">
-        <PlayaCard v-for="playa in playas" :key="playa.id" :playa="playa" />
+    <div class="container">
+        <div class="row"> 
+            <PlayaCard v-for="playa in playas" :key="playa.id" :playa="playa" />
+        </div>
     </div>
 </template>
 

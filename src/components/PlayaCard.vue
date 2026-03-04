@@ -1,7 +1,8 @@
 <template>
-    <div class="card" id="p1">
+    <div class="col-12 col md-4 col-lg-3">
+         <div class="card" id="p1">
         
-       <div><img :src="playa.img" height="200px"/></div>
+       <img :src="playa.img" class="card-img-top"/>
         
         <div class="card-body">
             <h5 class="card-title">{{ playa.name }} <img :src="playa.flag" height="20px"></h5>
@@ -18,6 +19,8 @@
             <router-link class="btn btn-dark" :to="`/detalle_playas/${playa.id}`">Ver detalle</router-link>
         </div>
     </div>
+    </div>
+   
 </template>
 
 <script setup>
