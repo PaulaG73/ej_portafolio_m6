@@ -3,21 +3,241 @@
     "id": "p1",
     "name": "Bahia Inglesa",
     "img": "/imagenes/Bahía_Inglesa_Chile.jpg",
-    "temp": "T° 21°C",
-    "hum": "HR 70%",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
     "estado": "Parcialmente nublado",
-    "íconoEst": " ",
+    "íconoEst": "",
     "flag": "/imagenes/B_Chile.jpg",
     "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
     "pronSem": [
-      {"dia": "Lunes","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
-      {"dia": "Martes","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
-      {"dia": "Miércoles","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
-      {"dia": "Jueves","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
-      {"dia": "Viernes","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
-      {"dia": "Sabado","min": 14,"max": 30,"estado": "parcialmente nublado", "icon":""},
-      {"dia": "Domingo","min": 14,"max": 30,"estado": "parcialmente nublado","icon":""}]
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 16,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 15,"max": 21,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 16,"max": 22,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 17,"max": 23,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 15,"max": 21,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 15,"max": 20,"estado": "Parcialmente nublado", "icon":""}]
+   
+  },
+  {
+    "id": "p2",
+    "name": "Bahia Tortuga",
+    "img": "/imagenes/Bahía_Inglesa_Chile.jpg",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
+    "estado": "Parcialmente nublado",
+    "íconoEst": "",
+    "flag": "/imagenes/B_Ec.jpg",
+    "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
+    "pronSem": [
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""}]
+   
+  },
+    {
+    "id": "p3",
+    "name": "Bocas del Toro",
+    "img": "/imagenes/Bahía_Inglesa_Chile.jpg",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
+    "estado": "Parcialmente nublado",
+    "íconoEst": "",
+    "flag": "/imagenes/B_Pa.jpg",
+    "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
+    "pronSem": [
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""}]
+   
+  },
+    {
+    "id": "p4",
+    "name": "Florianópolis",
+    "img": "/imagenes/Florianópolis_Brasil.jpg",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
+    "estado": "Parcialmente nublado",
+    "íconoEst": "",
+    "flag": "/imagenes/B_Br.jpg",
+    "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
+    "pronSem": [
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""}]
+   
+  },
+    {
+    "id": "p5",
+    "name": "Los Roques",
+    "img": "/imagenes/Los Roques_Venezuela.jpg",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
+    "estado": "Parcialmente nublado",
+    "íconoEst": "",
+    "flag": "/imagenes/B_Ve.jpg",
+    "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
+    "pronSem": [
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""}]
+   
+  },
+    {
+    "id": "p6",
+    "name": "Máncora",
+    "img": "/imagenes/Máncora_Perú.jpg",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
+    "estado": "Parcialmente nublado",
+    "íconoEst": "",
+    "flag": "/imagenes/B_Pe.jpg",
+    "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
+    "pronSem": [
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""}]
+   
+  },
+    {
+    "id": "p7",
+    "name": "Mar del Plata",
+    "img": "/imagenes/Mar del Plata_Argentina.jpg",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
+    "estado": "Parcialmente nublado",
+    "íconoEst": "",
+    "flag": "/imagenes/B_Arg.jpg",
+    "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
+    "pronSem": [
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""}]
+   
+  },
+    {
+    "id": "p8",
+    "name": "Playa Blanca",
+    "img": "/imagenes/Playa_Blanca_Colombia.jpg",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
+    "estado": "Parcialmente nublado",
+    "íconoEst": "",
+    "flag": "/imagenes/B_Co.jpg",
+    "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
+    "pronSem": [
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""}]
+   
+  },
+    {
+    "id": "p9",
+    "name": "Playa Conchal",
+    "img": "/imagenes/Playa_Conchal_Costa_Rica.jpg",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
+    "estado": "Parcialmente nublado",
+    "íconoEst": "",
+    "flag": "/imagenes/B_CR.jpg",
+    "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
+    "pronSem": [
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""}]
+   
+  },
+    {
+    "id": "p10",
+    "name": "Playa del Carmen",
+    "img": "/imagenes/Bahía_Inglesa_Chile.jpg",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
+    "estado": "Parcialmente nublado",
+    "íconoEst": "",
+    "flag": "/imagenes/B_Mx.jpg",
+    "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
+    "pronSem": [
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""}]
+   
+  },
+    {
+    "id": "p11",
+    "name": "Punta Cana",
+    "img": "/imagenes/Punta_Cana_RD.jpg",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
+    "estado": "Parcialmente nublado",
+    "íconoEst": "",
+    "flag": "/imagenes/B_RD.jpg",
+    "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
+    "pronSem": [
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""}]
+   
+  },
+    {
+    "id": "p12",
+    "name": "Punta del Este",
+    "img": "/imagenes/Bahía_Inglesa_Chile.jpg",
+    "temp": "T° 20°C",
+    "hum": "HR 76%",
+    "estado": "Parcialmente nublado",
+    "íconoEst": "",
+    "flag": "/imagenes/B_Ug.jpg",
+    "desc": "Conocida por sus playas de arena blanca y aguas cristalinas de tono turquesa, Bahía Inglesa es un balnearioque promete una experiencia inolvidable. Su clima cálido y agradable, te invita a a relajarte y disfrutar de la naturaleza en su máxima expresión.Ubicada en la región de Atacama,l norte de Chile, esta joya es una parte integral del desierto más árido del mundo.A pesar de su entorno desértico, Bahía Inglesa se destaca como un verdadero oasis, brindando un refugio lleno de vida y color.Es el lugar perfecto para quienes buscan disfrutar del sol, el mar y la belleza natural.",
+    "pronSem": [
+      {"dia": "Miércoles","min": 14,"max": 20,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Jueves","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Viernes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""},
+      {"dia": "Sabado","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Domingo","min": 14,"max": 30,"estado": "Soleado","icon":""},
+      {"dia": "Lunes","min": 14,"max": 30,"estado": "Soleado", "icon":""},
+      {"dia": "Martes","min": 14,"max": 30,"estado": "Parcialmente nublado", "icon":""}]
    
   }
-
+   
 ]
