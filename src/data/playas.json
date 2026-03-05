@@ -2,6 +2,7 @@
   {
     "id": "p1",
     "name": "Bahia Inglesa",
+    "país": "Chile",
     "img": "/imagenes/Bahía_Inglesa_Chile.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
@@ -22,6 +23,7 @@
   {
     "id": "p2",
     "name": "Bahia Tortuga",
+    "país": "Ecuador",
     "img": "/imagenes/Bahía_Tortuga_Ecuador.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
@@ -42,6 +44,7 @@
     {
     "id": "p3",
     "name": "Bocas del Toro",
+    "país":"Panamá",
     "img": "/imagenes/Bocas_del_Toro_Panamá.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
@@ -62,6 +65,7 @@
     {
     "id": "p4",
     "name": "Florianópolis",
+    "país": "Brasil",
     "img": "/imagenes/Florianópolis_Brasil.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
@@ -82,6 +86,7 @@
     {
     "id": "p5",
     "name": "Los Roques",
+    "país": "Venezuela",
     "img": "/imagenes/Los Roques_Venezuela.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
@@ -102,6 +107,7 @@
     {
     "id": "p6",
     "name": "Máncora",
+    "país": "Perú",
     "img": "/imagenes/Máncora_Perú.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
@@ -122,6 +128,7 @@
     {
     "id": "p7",
     "name": "Mar del Plata",
+    "país": "Argentina",
     "img": "/imagenes/Mar del Plata_Argentina.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
@@ -142,6 +149,7 @@
     {
     "id": "p8",
     "name": "Playa Blanca",
+    "país": "Colombia",
     "img": "/imagenes/Playa_Blanca_Colombia.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
@@ -162,6 +170,7 @@
     {
     "id": "p9",
     "name": "Playa Conchal",
+    "país": "Costa Rica",
     "img": "/imagenes/Playa_Conchal_Costa_Rica.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
@@ -182,6 +191,7 @@
     {
     "id": "p10",
     "name": "Playa del Carmen",
+    "país": "México",
     "img": "/imagenes/Playa_del_Carmen_México.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
@@ -202,6 +212,7 @@
     {
     "id": "p11",
     "name": "Punta Cana",
+    "país": "República Dominicana",
     "img": "/imagenes/Punta_Cana_RD.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",
@@ -222,6 +233,7 @@
     {
     "id": "p12",
     "name": "Punta del Este",
+    "país": "Uruguay",
     "img": "/imagenes/Punta_del_Este_Uruguay.jpg",
     "temp": "T° 20°C",
     "hum": "HR 76%",

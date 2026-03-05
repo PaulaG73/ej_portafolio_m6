@@ -1,8 +1,8 @@
 <template>
     <div class="col-12 col md-4 col-lg-3">
-         <div class="card" id="p1">
+         <div class="card mt-4" id="p1">
         
-       <img :src="playa.img" class="card-img-top"/>
+       <img :src="playa.img" class="card-img-top card-img-fixed"/>
         
         <div class="card-body">
             <h5 class="card-title">{{ playa.name }} <img :src="playa.flag" height="20px"></h5>
@@ -37,6 +37,12 @@ defineProps({
 </script>
 
 <style scoped>
+
+.card-img-fixed{
+
+    height: 200px;
+    object-fit: cover;
+}
 .card__estado {
     display: flex;
     justify-content: center;

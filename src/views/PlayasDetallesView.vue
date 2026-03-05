@@ -1,13 +1,41 @@
 <template>
-    <div>
-<!--  acá va HTML de lo que voy a mostar en Playa Detalles cuando haga click en el botón de cada tarjeta -->
+    <div class="container mt-4">
+        <div>
+            <h1 class="text-capitalize">{{ playa.name }}</h1>
+            <h2>{{ playa.país }}</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img :src="playa.img" :alt="playa.name" class="img-fluid rounded">
+                </div>
+
+                <div class="col-md-6">
+                    <p>{{ playa.desc }}</p>
+                   
+    <!-- aquí tengo que mostrar el pronóstico semanal -->
+
+                    <router-link to="/" class="btn btn-secondary">Volver</router-link>
+                </div>
+            </div>
+        </div>
+        
+
     </div>
 </template>
 
 <script setup>
-// Revisar lo que me dijo el profe en la clase del 2 de marzo, al principio
+    import {ref, computed} from "vue";
+    import {useRoute} from "vue-router";
+    import Allplayas from "../data/playas.json"
+
+
+    const playas = ref(Allplayas);
+    const route = useRoute();
+    const playa= computed (()=>playas.value.find (playa =>playa.id === route.params.id))
+    
+
+
 </script>
 
-<style>
+<style scoped>
 
 </style>
