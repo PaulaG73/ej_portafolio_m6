@@ -15,12 +15,7 @@
             <p class="card-text">Todos los derechos reservados</p>
             <i class="fa-regular fa-copyright"></i>
           </div>
-          <span>Contáctanos</span>
-          <button type="button" class="btn btn-outline-secondary" disabled>paula@vinologa.cl</button>
-          <br>
-          <br>
-
-          <a href="#header" class="btn btn-dark">Volver al Inicio</a>
+          <a href="#nav" class="btn btn-dark">Volver al Inicio</a>
         </div>
       </div>
     </footer>

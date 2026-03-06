@@ -11,27 +11,37 @@
                 <div class="col-md-6">
                     <p>{{ playa.desc }}</p>
                    
-    <!-- aquí tengo que mostrar el pronóstico semanal -->
-
-                    <router-link to="/" class="btn btn-secondary">Volver</router-link>
+   </div>
+                    
                 </div>
             </div>
         </div>
         
 
-    </div>
+<div class="pronSem d-flex justify-content-around">
+<PlayaCardDetalle v-for="dia in playa.pronSem"
+:detalle="dia"
+:key="dia.dia"/>
+
+
+</div>
+
+    <router-link to="/" class="btn btn-secondary">Volver</router-link>
 </template>
 
 <script setup>
     import {ref, computed} from "vue";
     import {useRoute} from "vue-router";
-    import Allplayas from "../data/playas.json"
+    import Allplayas from "../data/playas.json";
+import PlayaCardDetalle from "../components/PlayaCardDetalle.vue"
+
 
 
     const playas = ref(Allplayas);
     const route = useRoute();
     const playa= computed (()=>playas.value.find (playa =>playa.id === route.params.id))
-    
+
+    // Acá va la lógica del array del pronSem para el promedio de temperatura//
 
 
 </script>
