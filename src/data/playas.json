@@ -4,7 +4,7 @@
     "name": "Bahia Inglesa",
     "país": "Chile",
     "img": "/imagenes/Bahía_Inglesa_Chile.jpg",
-    "temp": "T° 21°C",
+    "temp": "🌡️ 21°C",
     "hum": "HR 83%",
     "estado": "Soleado",
     "íconoEst": "☀️​",
@@ -13,13 +13,13 @@
     "pronSem": [
       
       
-      {"dia": "Mañana","min": 16,"max": 21,"estado": "Parcialmente nublado", "icon":"🌥️​"},
+      {"dia": "Mañana", "min": 16,"max": 21,"estado": "Parcialmente nublado", "icon":"🌥️​"},
       {"dia": "Sabado","min": 17,"max": 23,"estado": "Parcialmente nublado", "icon":"🌥️​"},
       {"dia": "Domingo","min": 17,"max": 23,"estado": "Soleado","icon":"☀️​"},
-      {"dia": "Lunes","min": 16, "max": 21,"estado": "Soleado", "icon":"☀️"},
-      {"dia": "Martes","min": 16, "max": 21, "estado": "Parcialmente nublado", "icon":"🌥️​"},
-      {"dia": "Miércoles","min": 16, "max": 21, "estado": "Parcialmente nublado", "icon":"🌥️​"},
-      {"dia": "Jueves","min": 15,"max": 21, "estado": "Parcialmente nublado", "icon":"🌥️​"}
+      {"dia": "Lunes", "min": 16, "max": 21,"estado": "Soleado", "icon":"☀️"},
+      {"dia": "Martes", "min": 16, "max": 21, "estado": "Parcialmente nublado", "icon":"🌥️​"},
+      {"dia": "Miércoles", "min": 16, "max": 21, "estado": "Parcialmente nublado", "icon":"🌥️​"},
+      {"dia": "Jueves", "min": 15,"max": 21, "estado": "Parcialmente nublado", "icon":"🌥️​"}
 
     ]
    
@@ -29,7 +29,7 @@
     "name": "Bahia Tortuga",
     "país": "Ecuador",
     "img": "/imagenes/Bahía_Tortuga_Ecuador.jpg",
-    "temp": "T° 30°C",
+    "temp": "🌡️ 30°C",
     "hum": "HR 93%",
     "estado": "Lluvia débil",
     "íconoEst":"🌧️​",
@@ -38,12 +38,12 @@
     "pronSem": [
       
       {"dia": "Mañana","min": 23,"max": 28,"estado": "Tormenta", "icon":"​⛈️​"},
-      {"dia": "Sabado","min": 23,"max": 29,"estado": "Tormenta", "icon":"​⛈️​"},
-      {"dia": "Domingo","min": 23,"max": 28,"estado": "Lluvia débil","icon":"🌧️​"},
-      {"dia": "Lunes","min": 23,"max": 28,"estado": "Lluvia débil", "icon":"🌧️​"},
-      {"dia": "Martes","min": 23,"max": 28,"estado": "Lluvia débil", "icon":"🌧️​"},
-      {"dia": "Miércoles","min": 23,"max": 29,"estado": "Lluvia débil", "icon":"🌧️​"},
-      {"dia": "Jueves","min": 23,"max": 29,"estado": "Lluvia débil", "icon":"🌧️​"}
+      {"dia": "Sabado", "min": 23,"max": 29,"estado": "Tormenta", "icon":"​⛈️​"},
+      {"dia": "Domingo", "min": 23,"max": 28,"estado": "Lluvia débil","icon":"🌧️​"},
+      {"dia": "Lunes", "min": 23,"max": 28,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Martes", "min": 23,"max": 28,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Miércoles", "min": 23,"max": 29,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Jueves", "min": 23,"max": 29,"estado": "Lluvia débil", "icon":"🌧️​"}
 
     ]
    
@@ -53,7 +53,7 @@
     "name": "Bocas del Toro",
     "país":"Panamá",
     "img": "/imagenes/Bocas_del_Toro_Panamá.jpg",
-    "temp": "T° 27°C",
+    "temp": "🌡️ 27°C",
     "hum": "HR 84%",
     "estado": "Lluvia débil",
     "íconoEst": "🌧️​",
@@ -61,12 +61,12 @@
     "desc": "Bocas del Toro es un paraíso tropical en Panamá, conocido por sus hermosas playas, ideales para actividades acuáticas. Uno de los imprescindibles es un tour en bote hacia el Cayo Zapatilla, un paraíso tropical con aguas cristalinas y arenas blancas. También puedes disfrutar de snorkel en la Isla de los Delfines, donde podrás observar a estos encantadores mamíferos en su hábitat natural. Los amantes de la naturaleza pueden explorar el Parque Nacional Marino Isla Bastimentos, hogar de una increíble biodiversidad. Si prefieres algo más relajante, la vida nocturna de Bocas es igualmente interesante. Con una amplia gama de bares y restaurantes, podrás disfrutar de música en vivo, cócteles tropicales y una atmósfera única. La isla también es famosa por su ambiente relajado, lo que la convierte en el destino perfecto para desconectar de la rutina diaria.",
     "pronSem": [
       
-      {"dia": "Mañana","min": 24,"max": 28,"estado": "Lluvia débil", "icon":"🌧️​"},
-      {"dia": "Sabado","min": 24,"max": 27,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Mañana", "min": 24,"max": 28,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Sabado", "min": 24,"max": 27,"estado": "Lluvia débil", "icon":"🌧️​"},
       {"dia": "Domingo","min": 23,"max": 27,"estado": "Lluvia débil","icon":"🌧️​"},
-      {"dia": "Lunes","min": 23,"max": 27,"estado": "Lluvia débil", "icon":"🌧️​"},
-      {"dia": "Martes","min": 24,"max": 27,"estado": "Lluvia débil", "icon":"🌧️​"},
-      {"dia": "Miércoles","min": 24,"max": 28,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Lunes", "min": 23,"max": 27,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Martes", "min": 24,"max": 27,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Miércoles", "min": 24,"max": 28,"estado": "Lluvia débil", "icon":"🌧️​"},
       {"dia": "Jueves","min": 24,"max": 2028,"estado": "Lluvia débil", "icon":"🌧️​"}
 
     ]
@@ -77,7 +77,7 @@
     "name": "Florianópolis",
     "país": "Brasil",
     "img": "/imagenes/Florianópolis_Brasil.jpg",
-    "temp": "T° 28°C",
+    "temp": "🌡️ 28°C",
     "hum": "HR 84%",
     "estado": "Parcialmente nublado",
     "íconoEst": "🌥️​",
@@ -85,13 +85,13 @@
     "desc": "Florianópolis, o conocida popularmente como Floripa, es la capital del Estado de Santa Catarina, en la Región Sur de Brasil. Posee una gran diversidad de paisajes compuestos por manglares, lagunas, dunas, cerros y pequeñas islas forman la costa de esta región, la cual ha sido premiada con 42 impresionantes playas. La isla está dividida en dos partes: una isla costera y la pequeña península continental que forman la ciudad, y es esta geografía única la que transforma a Florianópolis en uno de los principales destinos de playa de Brasil. Parte de la ciudad es un área de preservación ambiental, con playas rodeadas de cerros cubiertos por vegetación de Mata Atlántica.",
     "pronSem": [
       
-      {"dia": "Mañana","min": 21,"max": 29,"estado": "Lluvia débil", "icon":"🌧️​"},
-      {"dia": "Sabado","min": 22,"max": 29,"estado": "Lluvia débil", "icon":"🌧️​"},
-      {"dia": "Domingo","min": 22,"max": 30,"estado": "Lluvia débil","icon":"🌧️​"},
-      {"dia": "Lunes","min": 21,"max": 26,"estado": "Lluvia débil", "icon":"🌧️​"},
-      {"dia": "Martes","min": 21,"max": 25,"estado": "Lluvia débil", "icon":"🌧️​"},
-      {"dia": "Miércoles","min": 21,"max": 25,"estado": "Lluvia débil", "icon":"🌧️​"},
-      {"dia": "Jueves","min": 21,"max": 25,"estado": "Lluvia débil", "icon":"🌧️​"}
+      {"dia": "Mañana", "iconTemp": "🌡️​","min": 21,"max": 29,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Sabado", "iconTemp": "🌡️​","min": 22,"max": 29,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Domingo", "iconTemp": "🌡️​","min": 22,"max": 30,"estado": "Lluvia débil","icon":"🌧️​"},
+      {"dia": "Lunes", "iconTemp": "🌡️​","min": 21,"max": 26,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Martes", "iconTemp": "🌡️​","min": 21,"max": 25,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Miércoles", "iconTemp": "🌡️​","min": 21,"max": 25,"estado": "Lluvia débil", "icon":"🌧️​"},
+      {"dia": "Jueves", "iconTemp": "🌡️​","min": 21,"max": 25,"estado": "Lluvia débil", "icon":"🌧️​"}
 
     ]
    
@@ -101,15 +101,15 @@
     "name": "Los Roques",
     "país": "Venezuela",
     "img": "/imagenes/Los Roques_Venezuela.jpg",
-    "temp": "T° 26°C",
+    "temp": "🌡️ 26°C",
     "hum": "HR 82%",
     "estado": "Parcialmente nublado",
     "íconoEst": "🌥️​",
     "flag": "/imagenes/B_Ve.jpg",
     "desc": "El archipiélago de Los Roques es una dependencia federal que agrupa un conjunto de islas y cayos en las Antillas Menores pertenecientes a Venezuela y es considerado el segundo parque marino más grande de América Latina (Parque nacional Archipiélago de Los Roques). Además el archipiélago posee el arrecife coralino más grande del sur del mar Caribe. Las actividades turísticas han sido estimuladas por sus playas de arenas blancas, navegación recreativa en diversos tipos de embarcaciones como kayak, velero, bote de remo y catamarán; windsurf, buceo o submarinismo sin tanques, pesca deportiva con caña, observación de aves y excursiones a pie. ",
     "pronSem": [
-      
-      {"dia": "Mañana","min": 25,"max": 26,"estado": "Lluvia débil", "icon":"🌧️​"},
+     
+      {"dia": "Mañana", "min": 25,"max": 26,"estado": "Lluvia débil", "icon":"🌧️​"},
       {"dia": "Sabado","min": 25,"max": 26,"estado": "Lluvia débil", "icon":"🌧️​"},
       {"dia": "Domingo","min": 26,"max": 26,"estado": "Lluvia débil","icon":"🌧️​"},
       {"dia": "Lunes","min": 26,"max": 26,"estado": "Lluvia débil", "icon":"🌧️​"},
@@ -125,7 +125,7 @@
     "name": "Máncora",
     "país": "Perú",
     "img": "/imagenes/Máncora_Perú.jpg",
-    "temp": "T° 29°C",
+    "temp": "🌡️ 29°C",
     "hum": "HR 86%",
     "estado": "Parcialmente nublado",
     "íconoEst": "🌥️​",
@@ -149,7 +149,7 @@
     "name": "Mar del Plata",
     "país": "Argentina",
     "img": "/imagenes/Mar del Plata_Argentina.jpg",
-    "temp": "T° 19°C",
+    "temp": "🌡️ 19°C",
     "hum": "HR 58%",
     "estado": "Parcialmente nublado",
     "íconoEst": "🌥️​",
@@ -173,7 +173,7 @@
     "name": "Playa Blanca",
     "país": "Colombia",
     "img": "/imagenes/Playa_Blanca_Colombia.jpg",
-    "temp": "T° 29°C",
+    "temp": "🌡️ 29°C",
     "hum": "HR 86%",
     "estado": "Parcialmente nublado",
     "íconoEst": "🌥️​",
@@ -197,7 +197,7 @@
     "name": "Playa Conchal",
     "país": "Costa Rica",
     "img": "/imagenes/Playa_Conchal_Costa_Rica.jpg",
-    "temp": "T° 29°C",
+    "temp": "🌡️ 29°C",
     "hum": "HR 61%",
     "estado": "Parcialmente nublado",
     "íconoEst": "🌥️​",
@@ -221,7 +221,7 @@
     "name": "Playa del Carmen",
     "país": "México",
     "img": "/imagenes/Playa_del_Carmen_México.jpg",
-    "temp": "T° 28°C",
+    "temp": "🌡️ 28°C",
     "hum": "HR 70%",
     "estado": "Lluvia débil",
     "íconoEst": "🌧️​",
@@ -244,7 +244,7 @@
     "name": "Punta Cana",
     "país": "República Dominicana",
     "img": "/imagenes/Punta_Cana_RD.jpg",
-    "temp": "T° 27°C",
+    "temp": "🌡️ 27°C",
     "hum": "HR 77%",
     "estado": "Lluvia débil",
     "íconoEst": "🌧️​",
@@ -267,7 +267,7 @@
     "name": "Punta del Este",
     "país": "Uruguay",
     "img": "/imagenes/Punta_del_Este_Uruguay.jpg",
-    "temp": "T° 22°C",
+    "temp": "🌡️ 22°C",
     "hum": "HR 84%",
     "estado": "Lluvia débil",
     "íconoEst": "🌧️​",

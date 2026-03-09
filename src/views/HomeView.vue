@@ -1,19 +1,24 @@
 <template>
   <div class="home">
     <h1>Playas soñadas de América</h1>
-   <PlayaGrid :playas="playas" />
-      
+    <PlayaGrid :playas="playas" />
+
     <footer id="Footer" class="footer">
 
       <div class="card text-center">
-        <div class="card-footer">
+        <div class="card-footer bg-dark text-light">
           AGENCIA DE TURISMO
         </div>
         <div class="card-body">
           <h5 class="card-title">Comercialización y Servicios Vinologa SpA</h5>
-          <div class="card__derechos">
-            <p class="card-text">Todos los derechos reservados</p>
-            <i class="fa-regular fa-copyright"></i>
+          <div class="card-derechos">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-c-circle-fill mt-1" viewBox="0 0 16 16">
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c.961 0 1.641.633 1.729 1.512h1.295v-.088c-.094-1.518-1.348-2.572-3.03-2.572-2.068 0-3.269 1.377-3.269 3.638v1.073c0 2.267 1.178 3.603 3.27 3.603 1.675 0 2.93-1.02 3.029-2.467v-.093H9.875c-.088.832-.75 1.418-1.729 1.418-1.224 0-1.927-.891-1.927-2.461v-1.06c0-1.583.715-2.503 1.927-2.503" />
+            </svg>
+            <p>Todos los Derechos Reservados</p>
           </div>
           <a href="#nav" class="btn btn-dark">Volver al Inicio</a>
         </div>
@@ -33,4 +38,14 @@ const playas = ref(playasData)
 
 </script>
 
-<style></style>
+<style>
+.card-derechos{
+
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+
+
+</style>
