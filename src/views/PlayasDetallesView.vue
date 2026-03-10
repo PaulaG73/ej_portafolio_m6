@@ -18,7 +18,7 @@
     </div>
 
 
-    <div class="pronSem d-flex justify-content-around">
+    <div class="pronSem d-flex justify-content-center flex-wrap">
         <PlayaCardDetalle v-for="dia in playa.pronSem" :detalle="dia" :key="dia.dia" />
 
 
@@ -45,7 +45,14 @@ const playa = computed(() => playas.value.find(playa => playa.id === route.param
 </script>
 
 <style scoped>
+.img-fluid{
+    height: 250px;
+    
+
+}
 .desc{
+
+ margin-top: 40px; 
 text-align: justify;
 font-size: small;
 
