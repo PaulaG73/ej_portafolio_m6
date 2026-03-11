@@ -1,7 +1,8 @@
 [
   {
     "id": "p1",
-    "name": "Bahia Inglesa / Chile",
+    "name1": "Bahia Inglesa",
+"name2": "Bahia Inglesa / Chile",
     "img": "/imagenes/Bahía_Inglesa_Chile2.jpg",
     "temp": "🌡️ 21°C",
     "hum": "HR 83%",
@@ -25,7 +26,8 @@
   },
   {
     "id": "p2",
-    "name": "Bahia Tortuga / Ecuador",
+    "name1": "Bahia Tortuga",
+    "name2": "Bahia Tortuga / Ecuador",
     "img": "/imagenes/Bahía_Tortuga_Ecuador.jpg",
     "temp": "🌡️ 30°C",
     "hum": "HR 93%",
@@ -48,7 +50,8 @@
   },
     {
     "id": "p3",
-    "name": "Bocas del Toro / Panamá",
+    "name1": "Bocas del Toro",
+    "name2": "Bocas del Toro / Panamá",
     "img": "/imagenes/Bocas_del_Toro_Panamá.jpg",
     "temp": "🌡️ 27°C",
     "hum": "HR 84%",
@@ -71,7 +74,8 @@
   },
     {
     "id": "p4",
-    "name": "Florianópolis / Brasil",
+    "name1": "Florianópolis",
+    "name2": "Florianópolis / Brasil",
     "img": "/imagenes/Florianópolis_Brasil2.jpg",
     "temp": "🌡️ 28°C",
     "hum": "HR 84%",
@@ -94,7 +98,8 @@
   },
     {
     "id": "p5",
-    "name": "Los Roques / Venezuela",
+    "name1": "Los Roques",
+    "name2": "Los Roques / Venezuela",
     "img": "/imagenes/Los Roques_Venezuela2.jpg",
     "temp": "🌡️ 26°C",
     "hum": "HR 82%",
@@ -117,7 +122,8 @@
   },
     {
     "id": "p6",
-    "name": "Máncora / Perú",
+    "name1": "Máncora",
+    "name2": "Máncora / Perú",
     "img": "/imagenes/Máncora_Perú.jpg",
     "temp": "🌡️ 29°C",
     "hum": "HR 86%",
@@ -140,7 +146,8 @@
   },
     {
     "id": "p7",
-    "name": "Mar del Plata / Argentina",
+    "name1": "Mar del Plata",
+    "name2": "Mar del Plata / Argentina",
     "img": "/imagenes/Mar del Plata_Argentina.jpg",
     "temp": "🌡️ 19°C",
     "hum": "HR 58%",
@@ -163,7 +170,8 @@
   },
     {
     "id": "p8",
-    "name": "Playa Blanca / Colombia",
+    "name1": "Playa Blanca",
+    "name2": "Playa Blanca / Colombia",
     "img": "/imagenes/Playa_Blanca_Colombia2.jpg",
     "temp": "🌡️ 29°C",
     "hum": "HR 86%",
@@ -186,7 +194,8 @@
   },
     {
     "id": "p9",
-    "name": "Playa Conchal / Costa Rica",
+    "name1": "Playa Conchal",
+    "name2": "Playa Conchal / Costa Rica",
     "img": "/imagenes/Playa_Conchal_Costa_Rica2.jpg",
     "temp": "🌡️ 29°C",
     "hum": "HR 61%",
@@ -209,7 +218,8 @@
   },
     {
     "id": "p10",
-    "name": "Playa del Carmen / México",
+    "name1": "Playa del Carmen",
+    "name2": "Playa del Carmen / México",
     "img": "/imagenes/Playa_del_Carmen_México.jpg",
     "temp": "🌡️ 28°C",
     "hum": "HR 70%",
@@ -231,7 +241,8 @@
   },
     {
     "id": "p11",
-    "name": "Punta Cana / R. Dominicana",
+    "name1": "Punta Cana",
+    "name2": "Punta Cana / R. Dominicana",
     "img": "/imagenes/Punta_Cana_RD2.jpg",
     "temp": "🌡️ 27°C",
     "hum": "HR 77%",
@@ -253,7 +264,8 @@
   },
     {
     "id": "p12",
-    "name": " Punta  del  Este / Uruguay ",
+    "name1": "Punta del Este",
+    "name2": "Punta del Este / Uruguay",
     "img": "/imagenes/Punta_del_Este_Uruguay2.jpg",
     "temp": "🌡️ 22°C",
     "hum": "HR 84%",

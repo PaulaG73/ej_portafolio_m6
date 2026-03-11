@@ -6,7 +6,7 @@
     <footer id="Footer" class="footer mt-2">
 
       <div class="card text-center">
-        <div class="card-footer bg-dark text-light">
+        <div class="card-footer bg-dark text-light fs-5">
           Agencia de Turismo
         </div>
         <div class="card-body">

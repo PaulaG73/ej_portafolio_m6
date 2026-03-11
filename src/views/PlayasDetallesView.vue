@@ -2,7 +2,7 @@
     <div class="card-detail bg-dark text-light ">
         <div class="container mt-4 justify-content-around">
             <div>
-                <h3 class="text-capitalize pt-4">{{ playa.name }}</h3>
+                <h3 class="text-capitalize pt-4">{{ playa.name2 }}</h3>
 
                 <div class="row">
                     <div class="col-md-6">
@@ -23,7 +23,7 @@
             <PlayaCardDetalle v-for="dia in playa.pronSem" :detalle="dia" :key="dia.dia" />
         </div>
 
-        <router-link to="/" class="btn btn-secondary mb-2">Volver</router-link>
+        <router-link to="/" class="btn btn-success mb-2">Volver</router-link>
     </div>
 
 
