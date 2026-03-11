@@ -1,30 +1,32 @@
 <template>
-    <div class="container mt-4">
-        <div>
-            <h2 class="text-capitalize">{{ playa.name }}</h2>
-            <h4>{{ playa.país }}</h4>
-            <div class="row">
-                <div class="col-md-6">
-                    <img :src="playa.img" :alt="playa.name" class="img-fluid rounded">
+    <div class="card-detail bg-dark text-light ">
+        <div class="container mt-4 justify-content-around">
+            <div>
+                <h3 class="text-capitalize pt-4">{{ playa.name }}</h3>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <img :src="playa.img" :alt="playa.name" class="img-fluid rounded">
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class="desc">{{ playa.desc }}</p>
+
+                    </div>
+
                 </div>
-
-                <div class="col-md-6">
-                    <p class="desc">{{ playa.desc }}</p>
-
-                </div>
-
             </div>
         </div>
+
+
+        <div class="pronSem d-flex justify-content-center flex-wrap">
+            <PlayaCardDetalle v-for="dia in playa.pronSem" :detalle="dia" :key="dia.dia" />
+        </div>
+
+        <router-link to="/" class="btn btn-secondary mb-2">Volver</router-link>
     </div>
 
 
-    <div class="pronSem d-flex justify-content-center flex-wrap">
-        <PlayaCardDetalle v-for="dia in playa.pronSem" :detalle="dia" :key="dia.dia" />
-
-
-    </div>
-
-    <router-link to="/" class="btn btn-secondary">Volver</router-link>
 </template>
 
 <script setup>
@@ -45,16 +47,17 @@ const playa = computed(() => playas.value.find(playa => playa.id === route.param
 </script>
 
 <style scoped>
-.img-fluid{
+.img-fluid {
     height: 250px;
-    
+
 
 }
-.desc{
 
- margin-top: 40px; 
-text-align: justify;
-font-size: small;
+.desc {
+
+    margin-top: 40px;
+    text-align: justify;
+    font-size: small;
 
 }
 </style>

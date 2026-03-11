@@ -5,7 +5,7 @@
        <img :src="playa.img" class="card-img-top card-img-fixed"/>
         
         <div class="card-body">
-            <h5 class="card-title">{{ playa.name }} <img :src="playa.flag" height="20px"></h5>
+            <h6 class="card-title fw-bold fs-7">{{ playa.name }} <img :src="playa.flag" height="20px"></h6>
 
             <div class="card__temp__hum">
                 <p>{{ playa.temp }}</p> /
@@ -37,6 +37,8 @@ defineProps({
 </script>
 
 <style scoped>
+
+
 
 .card-img-fixed{
 

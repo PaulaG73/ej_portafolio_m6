@@ -9,7 +9,7 @@
         <p class="card-temp"> prom {{ (detalle.min + detalle.max) / 2 }}°C</p>
         <div class="card-estado d-flex">
             <p>{{ detalle.icon }}</p>
-            <h6 class="card-subtitle mb-2 text-body-secondary">{{ detalle.estado }}</h6>
+            <h6 class="card-subtitle mb-2">{{ detalle.estado }}</h6>
 
         </div>
     </div>
@@ -42,6 +42,8 @@ defineProps({
     border-color: black;
     border-radius: 1px;
     width: 120px;
+    height: 170px;
+    color: black;
 }
 
 .card-title {
@@ -51,19 +53,20 @@ defineProps({
 .container-temp{
 
     display: flex;
-    font-size: small;
+    font-size: x-small;
     justify-content: space-around;
   
 
 }
 .card-temp{
-    font-size: small;
+    font-size: x-small;
 }
 .card-estado{
   justify-content: space-around;  
 }
 .card-subtitle{
 margin-top: 2px;
-    font-size: small;
+    font-size: x-small;
+    font-weight: bold;
 }
 </style>

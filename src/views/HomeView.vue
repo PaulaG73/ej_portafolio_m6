@@ -1,13 +1,13 @@
 <template>
   <div class="home">
-    <h1>Playas soñadas de América</h1>
+    <h1 id="inicio" class="title bg-dark text-light py-3">Playas soñadas de América</h1>
     <PlayaGrid :playas="playas" />
 
-    <footer id="Footer" class="footer">
+    <footer id="Footer" class="footer mt-2">
 
       <div class="card text-center">
         <div class="card-footer bg-dark text-light">
-          AGENCIA DE TURISMO
+          Agencia de Turismo
         </div>
         <div class="card-body">
           <h5 class="card-title">Comercialización y Servicios Vinologa SpA</h5>
@@ -20,7 +20,8 @@
             </svg>
             <p>Todos los Derechos Reservados</p>
           </div>
-          <a href="#nav" class="btn btn-dark">Volver al Inicio</a>
+          <a href="#inicio" class="btn btn-dark">Volver al Inicio</a>
+        
         </div>
       </div>
     </footer>
