@@ -17,8 +17,8 @@ La aplicación consume datos de un archivo.json (playas.json) y presenta la info
 
 | Vista | Ruta | Descripción |
 |-------|------|-------------|
-| **Home** | `/` | Pantalla principal con un gran título y tarjetas de 12 playas destacadas, con fotografía, bandera del país correspondiente e información de temperatura, humedad relativa y estado del tiempo. Finaliza la vista, con un footer con datos sobre la Agencia de Turismo.
-| **Detalle de las playas** | `/detalle_playas/:id` | Muestra una tarjeta con fotografía ampliada, descripción e información detallada del clima de una playa específica: temperatura, humedad, y pronóstico semanal. |
+| **Home** | `/` | Pantalla principal con un gran título y tarjetas de 12 playas destacadas, con fotografía, bandera del país correspondiente e información de temperatura, humedad relativa y estado del tiempo. Al final de la tarjeta, hay un botón que te lleva directamente al detalle. Finaliza la vista, con un footer con datos sobre la Agencia de Turismo.
+| **Detalle de las playas** | `/detalle_playas/:id` | Muestra una tarjeta con fotografía ampliada, descripción e información detallada del clima de una playa específica: temperatura, humedad, y pronóstico semanal. Al final de la tarjeta hay un bot´+on para volver a la vista principal (Home).
 ---
 
 ## 🗺️ Rutas configuradas en Vue Router
@@ -96,7 +96,7 @@ npm install
 ## 🔗 Repositorio
 
 <!-- Buscar este enlace en GitHub -->
-📂 **GitHub:** [https://github.com/tu-usuario/weather-places](https://github.com/tu-usuario/weather-places)
+📂 **GitHub:** [https://github.com/PaulaG73/ej_portafolio_m6.git]
 
 ---
 
@@ -111,7 +111,7 @@ npm install
 
 **[Paula Gajardo]** — 
 📧 paulagajardosch@gmail.com
-🐙 [@tu-usuario](https://github.com/tu-usuario)
+🐙 [@PEGSCH2025](https://github.com/PEGSCH2025)
 
 ---
 
