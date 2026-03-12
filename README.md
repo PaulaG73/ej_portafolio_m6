@@ -95,7 +95,6 @@ npm install
 
 ## 🔗 Repositorio
 
-<!-- Buscar este enlace en GitHub -->
 📂 **GitHub:** [https://github.com/PaulaG73/ej_portafolio_m6.git]
 
 ---
@@ -109,7 +108,7 @@ npm install
 
 ## 👨‍💻 Autor
 
-**[Paula Gajardo]** — 
+**[Paula Gajardo]** — *Estudiante de [Front End]*
 📧 paulagajardosch@gmail.com
 🐙 [@PEGSCH2025](https://github.com/PEGSCH2025)
 
