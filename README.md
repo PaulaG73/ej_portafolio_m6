@@ -1,5 +1,5 @@
 
-# 🌤️ WeatherPlaces - App de Clima por Lugares
+# 🌤️ ej_portafolio_m6 (Playas Soñadas de América) - App de Clima por Lugares
 
 > Proyecto desarrollado como parte del curso de Desarrollo Web con Vue.js
 
@@ -7,9 +7,9 @@
 
 ## 📋 Descripción
 
-**WeatherPlaces** es una aplicación web desarrollada con **Vue.js** que permite a los usuarios consultar el clima actual y el pronóstico de diferentes lugares del mundo. La temática de la app gira en torno a la exploración de destinos turísticos y ciudades destacadas, mostrando información meteorológica relevante como temperatura, humedad, velocidad del viento y condiciones generales del cielo.
+**Playas Soñadas de América** es una aplicación web desarrollada con **Vue.js** que permite a los usuarios consultar el clima actual y el pronóstico semanal de diferentes playas de América. La temática de la app gira en torno a la exploración de destacados destinos turísticos, mostrando información meteorológica relevante como temperatura, humedad y condiciones generales del tiempo.
 
-La aplicación consume datos de una API pública de clima (como [OpenWeatherMap](https://openweathermap.org/)) y presenta la información de forma clara y visual.
+La aplicación consume datos de un archivo.json (playas.json) y presenta la información de forma clara y visual.
 
 ---
 
@@ -17,11 +17,8 @@ La aplicación consume datos de una API pública de clima (como [OpenWeatherMap]
 
 | Vista | Ruta | Descripción |
 |-------|------|-------------|
-| **Home** | `/` | Pantalla principal con buscador de ciudades y lista de lugares destacados. |
-| **Detalle del Lugar** | `/lugar/:id` | Muestra información detallada del clima de un lugar específico: temperatura, humedad, viento y pronóstico. |
-| **Favoritos** | `/favoritos` | Lista de lugares guardados por el usuario para consulta rápida. |
-| **Acerca de** | `/about` | Información sobre la aplicación y el equipo desarrollador. |
-
+| **Home** | `/` | Pantalla principal con un gran título y tarjetas de 12 playas destacadas, con fotografía, bandera del país correspondiente e información de temperatura, humedad relativa y estado del tiempo. Finaliza la vista, con un footer con datos sobre la Agencia de Turismo.
+| **Detalle de las playas** | `/detalle_playas/:id` | Muestra una tarjeta con fotografía ampliada, descripción e información detallada del clima de una playa específica: temperatura, humedad, y pronóstico semanal. |
 ---
 
 ## 🗺️ Rutas configuradas en Vue Router
@@ -31,37 +28,25 @@ Las rutas están definidas en `src/router/index.js`:
 ```js
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import LugarDetalle from '../views/LugarDetalle.vue'
-import Favoritos from '../views/Favoritos.vue'
-import About from '../views/AboutView.vue'
+import DetallePlayas from '../views/PlayasDetallesView.vue'
 
 const routes = [
-{
-path: '/',
-name: 'home',
-component: HomeView
-},
-{
-path: '/lugar/:id',
-name: 'lugar-detalle',
-component: LugarDetalle,
-props: true
-},
-{
-path: '/favoritos',
-name: 'favoritos',
-component: Favoritos
-},
-{
-path: '/about',
-name: 'about',
-component: About
-}
+  {
+    path: '/',
+    name: 'home',
+    component: HomeView
+  },
+ 
+  {
+    path: '/detalle_playas/:id',
+    name: 'detalle_playas',
+    component: DetallePlayas
+  }
 ]
 
 const router = createRouter({
-history: createWebHistory(),
-routes
+  history: createWebHistory(process.env.BASE_URL),
+  routes
 })
 
 export default router
@@ -74,14 +59,12 @@ export default router
 ### Requisitos previos
 
 - [Node.js](https://nodejs.org/) v16 o superior
-- [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/)
-- Vue CLI instalado globalmente *(opcional)*
+- [npm](https://www.npmjs.com/) 
+- Vue CLI instalado globalmente 
 
 ```bash
 npm install -g @vue/cli
 ```
-
----
 
 ### Pasos para correr el proyecto
 
@@ -89,7 +72,7 @@ npm install -g @vue/cli
 
 ```bash
 git clone https://github.com/tu-usuario/weather-places.git
-cd weather-places
+cd ej_portafolio_m6
 ```
 
 **2. Instalar dependencias**
@@ -100,39 +83,20 @@ npm install
 
 **3. Configurar variables de entorno**
 
-Crea un archivo `.env` en la raíz del proyecto con tu API Key:
-
-```env
-VITE_API_KEY=tu_api_key_aqui
-VITE_API_URL=https://api.openweathermap.org/data/2.5
-```
-
-**4. Iniciar el servidor de desarrollo**
-
-```bash
-npm run dev
-```
-
-La app estará disponible en: `http://localhost:5173`
-
----
 
 ### Otros comandos útiles
 
 | Comando | Descripción |
 |---------|-------------|
-| `npm run dev` | Inicia el servidor de desarrollo |
 | `npm run build` | Genera la build de producción en `/dist` |
-| `npm run preview` | Previsualiza la build de producción |
 | `npm run lint` | Revisa el código con ESLint |
 
 ---
 
 ## 🔗 Repositorio
 
+<!-- Buscar este enlace en GitHub -->
 📂 **GitHub:** [https://github.com/tu-usuario/weather-places](https://github.com/tu-usuario/weather-places)
-
-> ⚠️ Recuerda cambiar el enlace por la URL real de tu repositorio público.
 
 ---
 
@@ -140,18 +104,15 @@ La app estará disponible en: `http://localhost:5173`
 
 - [Vue.js 3](https://vuejs.org/)
 - [Vue Router 4](https://router.vuejs.org/)
-- [Vite](https://vitejs.dev/)
-- [OpenWeatherMap API](https://openweathermap.org/api)
-- [Axios](https://axios-http.com/)
 
 ---
 
 ## 👨‍💻 Autor
 
-**[Tu Nombre]** — *Estudiante de [Nombre del Curso]*
-📧 correo@ejemplo.com
+**[Paula Gajardo]** — 
+📧 paulagajardosch@gmail.com
 🐙 [@tu-usuario](https://github.com/tu-usuario)
 
 ---
 
-*Proyecto académico — [Año]*
+*Proyecto académico — [2026]*

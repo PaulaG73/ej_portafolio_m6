@@ -1,0 +1,82 @@
+
+A partir de lo construido en los módulos anteriores (estructura de lugares, pronósticos y estadísticas): 
+La app pasa a ser una SPA en Vue con al menos estas vistas: 
+Home: listado de lugares con su clima actual. OK
+
+Detalle de lugar: información ampliada de un lugar (pronóstico y estadísticas que ya 
+vienes trabajando). OK
+
+La navegación entre Home y Detalle debe hacerse sin recargar la página, usando Vue 
+Router. OK
+
+//Se debe incluir al menos una interacción extra en la interfaz, por ejemplo: 
+o Búsqueda o filtrado de lugares. ?
+o Selección de unidad de temperatura (°C / °F). ?
+o Alguna pequeña opción de configuración. ?//
+
+Los datos pueden seguir viniendo de: 
+La API integrada en el Módulo 5, o datos mock definidos en JS, 
+según lo que se haya trabajado en el proyecto. Lo importante en este módulo es cómo esos 
+datos se muestran y navegan en Vue. OK
+
+Requisitos funcionales mínimos 
+Home (ruta inicial): 
+Mostrar un listado de ≥ 5 lugares con su información básica de clima. OK
+Permitir seleccionar un lugar (click en card, botón o enlace) para ver su detalle. OK
+Detalle de lugar (ruta dinámica): 
+
+//Mostrar información del lugar seleccionado (nombre OK, clima actual P). 
+o Mostrar el pronóstico de varios días. OK
+o Mostrar las estadísticas de la semana calculadas en módulos anteriores (min, 
+max, promedio, etc.). OK//
+
+Interacción: 
+//Incluir al menos una interacción con formularios usando v-model (por ejemplo, 
+buscar un lugar por nombre o cambiar de unidad). P//
+
+Navegación: 
+La app debe tener rutas diferenciadas para Home y Detalle, manejadas por Vue 
+Router. OK
+Debe ser posible volver desde el Detalle al Home (link, botón, etc.). OK
+  
+Requisitos técnicos 
+Vue y componentes 
+Utilizar Vue.js para construir la interfaz. OK
+Dividir la app al menos en: 
+Un componente raíz (App). OK
+Un componente para Home. OK
+Un componente para Detalle de lugar. 
+
+//Utilizar data() para el estado local de los componentes. OK
+
+Templates, binding y eventos 
+Utilizar: 
+Interpolaciones ({{ }}) para mostrar datos de lugares y clima. OK
+v-for para renderizar listas (lugares, días del pronóstico). OK
+
+//v-if / v-show para mostrar/ocultar secciones según el estado (por ejemplo, mensajes de 
+“No se encontró el lugar”). P//
+//v-model para enlazar al menos un input de formulario (búsqueda, filtro, opción de 
+configuración). P//
+//Eventos (@click, @submit, etc.) para manejar acciones del usuario. P//
+
+Vue Router 
+Configurar Vue Router para manejar al menos: 
+Una ruta para Home (/ o similar). OK
+Una ruta dinámica para el detalle de cada lugar (por ejemplo, /lugar/:id). OK
+Utilizar enlaces de navegación de Vue (por ejemplo, <router-link>) y/o navegación programática 
+para cambiar entre rutas. OK
+
+Entregables 
+• Proyecto comprimido en un único archivo .zip que contenga: 
+o Código fuente de la app en Vue (componentes, configuración de router, etc.). 
+o Archivos de estilos (pueden reutilizar lo ya trabajado en módulos anteriores). 
+o Cualquier archivo JS adicional que se utilice. 
+o Carpeta de recursos (imágenes, íconos, etc.), si corresponde. 
+• Archivo README.md con: 
+o Descripción breve de la App de Clima y su temática de lugares. 
+o Listado de las vistas principales (Home, Detalle, y alguna otra si la hay). 
+o Descripción de las rutas configuradas en Vue Router. 
+o Instrucciones básicas para ejecutar el proyecto (por ejemplo, comandos si se usa Vue 
+CLI). 
+o Enlace al repositorio público de GitHub.
