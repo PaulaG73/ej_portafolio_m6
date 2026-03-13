@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
 /dist
+modeloReadme.text
+info.text
 
 
 # local env files

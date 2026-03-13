@@ -23,7 +23,7 @@
             <PlayaCardDetalle v-for="dia in playa.pronSem" :detalle="dia" :key="dia.dia" />
         </div>
 
-        <router-link to="/" class="btn btn-success mb-2">Volver</router-link>
+        <router-link to="/" class="btn btn-outline-success mb-2">Volver</router-link>
     </div>
 
 

@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DetallePlayas from '../views/PlayasDetallesView.vue'
 
-
 const routes = [
   {
     path: '/',
@@ -10,7 +9,6 @@ const routes = [
     component: HomeView
   },
  
-  
   {
     path: '/detalle_playas/:id',
     name: 'detalle_playas',

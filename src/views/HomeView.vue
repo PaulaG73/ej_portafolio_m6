@@ -1,6 +1,24 @@
 <template>
+  <nav class ="navbar bg-dark">
+  <div class="container-fluid">
+    <a id="inicio" class="navbar-brand text-light fs-1">Playas soñadas de América</a>
+
+
+<select class="btn btn-outline-success" v-model="escalaTemp">
+<option value="" disabled>Seleccione Escala de T°</option>
+<option value="°C">°C</option>
+<option value="°F">°F</option>
+
+</select>
+
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Busca por país" aria-label="Search"/>
+      <button class="btn btn-outline-success" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
   <div class="home">
-    <h1 id="inicio" class="title bg-dark text-light py-3">Playas soñadas de América</h1>
+    
     <PlayaGrid :playas="playas" />
 
     <footer id="Footer" class="footer mt-2">
@@ -35,6 +53,7 @@ import playasData from '../data/playas.json';
 import { ref } from 'vue'
 
 const playas = ref(playasData)
+const escalaTemp =ref("")
 
 
 </script>
