@@ -8,7 +8,7 @@
             <h5 class="card-title fw-bold fs-7">{{ playa.name1 }} <img :src="playa.flag" height="20px"></h5>
 
             <div class="card__temp__hum">
-                <p>{{ playa.temp }}</p> /
+                <p>{{ cambiotemperatura }}</p> /
                 <p>{{ playa.hum }}</p>
             </div>
             <div class="card__estado">
@@ -26,14 +26,28 @@
 <script setup>
 
 
-import { defineProps } from 'vue';
-defineProps({
+import { defineProps, computed } from 'vue';
+
+const prop=defineProps({
     playa: {
         type: Object,
         required: true
+    },
+
+    escalaTemp: {
+
+        type: String,
+        default: "°C"
     }
 
 })
+
+const cambiotemperatura=computed(()=>{
+return prop.escalaTemp=='°C'? prop.playa.temp : `🌡️${Math.ceil((parseInt(prop.playa.temp.match(/\d+/)[0]) *9/5) +32)}°F` 
+
+
+})
+
 </script>
 
 <style scoped>

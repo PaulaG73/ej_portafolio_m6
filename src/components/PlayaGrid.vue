@@ -1,7 +1,8 @@
 <template>
     <div class="container">
         <div class="row"> 
-            <PlayaCard v-for="playa in playas" :key="playa.id" :playa="playa" />
+            <PlayaCard v-for="playa in playas" :key="playa.id" :playa="playa" 
+           :escalaTemp="escalaTemp" />
         </div>
     </div>
 </template>
@@ -14,6 +15,12 @@ defineProps({
     playas: {
         type: Array,
         required: true
+    },
+
+    escalaTemp: {
+
+        type: String,
+        default: "°C"
     }
 
 })

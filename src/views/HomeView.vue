@@ -5,6 +5,7 @@
 
 
 <select class="btn btn-outline-success" v-model="escalaTemp">
+
 <option value="" disabled>Seleccione Escala de T°</option>
 <option value="°C">°C</option>
 <option value="°F">°F</option>
@@ -19,7 +20,8 @@
 </nav>
   <div class="home">
     
-    <PlayaGrid :playas="playas" />
+    <PlayaGrid :playas="playas" 
+    :escalaTemp="escalaTemp"/>
 
     <footer id="Footer" class="footer mt-2">
 
@@ -52,8 +54,9 @@ import PlayaGrid from '../components/PlayaGrid.vue';
 import playasData from '../data/playas.json';
 import { ref } from 'vue'
 
+
 const playas = ref(playasData)
-const escalaTemp =ref("")
+const escalaTemp =ref("°C")
 
 
 </script>
