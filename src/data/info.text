@@ -11,7 +11,7 @@ Router. OK
 
 //Se debe incluir al menos una interacción extra en la interfaz, por ejemplo: 
 o Búsqueda o filtrado de lugares. ?
-o Selección de unidad de temperatura (°C / °F). ?
+o Selección de unidad de temperatura (°C / °F). °F=(°C x 1,8) + 32
 o Alguna pequeña opción de configuración. ?//
 
 Los datos pueden seguir viniendo de: 
